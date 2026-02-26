@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Defination for books'
+define service ZUI_RAP_BOOKS {
+  expose ZI_rap_books;
+}

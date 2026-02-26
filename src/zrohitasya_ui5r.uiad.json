@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "{{appDescription}}",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Travel Booking"
+  },
+  "ui5AppDetails": {
+    "appId": "display"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_B06F3EBE7F5DCA4D2248C5B2308330F3C29255A9_TM",
+    "semanticObject": "RAP",
+    "action": "DISPLAY",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_B06F3EBE7F5DCA4D2248C5B2308330F3C29255A9_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Travel Booking"
+      }
+    }
+  ]
+}

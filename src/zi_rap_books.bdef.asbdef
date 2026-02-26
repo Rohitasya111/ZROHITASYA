@@ -1,0 +1,25 @@
+//managed implementation in class zbp_i_rap_books unique;
+//strict ( 2 );
+//
+//define behavior for ZI_rap_books //alias <alias_name>
+//persistent table zdb_rap_book
+//lock master
+//authorization master ( instance )
+////etag master <field_name>
+//{
+//  create ( authorization : global );
+//  update;
+//  delete;
+//  field ( readonly ) Travel_Id, Booking_Id;
+//}
+managed;
+
+define behavior for zi_rap_books
+persistent table Zdb_RAP_BOOK
+lock master
+authorization master ( instance )
+{
+  create  ( authorization : global );
+  update;
+  delete;
+}
