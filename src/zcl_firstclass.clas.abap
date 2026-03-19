@@ -13,10 +13,7 @@ ENDCLASS.
 
 
 CLASS zcl_firstclass IMPLEMENTATION.
-
-
   METHOD if_oo_adt_classrun~main.
-
-    out->write( 'Tara' ).
+    out->write( '1st ABAP Class in ADT' ).
   ENDMETHOD.
 ENDCLASS.
